@@ -1464,8 +1464,10 @@ a[title]:hover::after {
 /*********** product page *************/
 /*********** product page *************/
 /*********** product page *************/
-.work-box {
+.about-page {
   background: whitesmoke;
+}
+.work-box {
   overflow: hidden;
   min-height: 80vh;
 }
@@ -1498,13 +1500,14 @@ a[title]:hover::after {
   padding: 10px 30px;
   display: inline-block;
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgba(255, 0, 0, 0.5);
   transition: 0.5s;
+  box-shadow: 1px 3px 5px 1px rgba(255, 0, 0, 0.3);
 }
 
 .work-box .products-menu ul li:hover {
   color: #fff;
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0);
 }
 
 /* .work-box img {
@@ -1532,6 +1535,7 @@ a[title]:hover::after {
   max-height: 300px;
   width: 100%;
   object-fit: cover;
+  box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.7);
 }
 
 .products-menu .fas {
